@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="/assets/main.css" />
+</head>
+<body>
+  <h1>Sockets</h1>
+  <button id="call">CALL</button>
+  <button id="jawab">JAWAB</button>
+  <button id="end">END</button>
+  <button id="change">CHANGE</button>
+  
+  <div>
+    <input type="text" id="data" />
+    <button id="send-data">SEND</button>
+  </div>
+
+  <video id="local-video"></video>
+  <video id="remote-video"></video>
+
+  <ul id="room-list"></ul>
+
+  <input type="text" id="room" />
+  <button id="join">JOIN</button>
+  <button id="left">LEFT</button>
+  <br />
+  <textarea id="message"></textarea> <br />
+  <button id="send">Kirim</button>
+  <br />
+  <textarea id="message-list"></textarea>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/assets/simplepeer.min.js"></script>
+  <script src="/assets/jquery.js"></script>
+  <script src="/assets/main.js"></script>
+</body>
+</html>

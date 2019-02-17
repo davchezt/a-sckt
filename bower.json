@@ -1,0 +1,23 @@
+{
+  "name": "socket",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Raiza Rhamdan a.k.a Leonardo DaVchezt <davchezt@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "font-awesome": "^5.7.2",
+    "bootstrap": "^4.3.0",
+    "ionicons": "^4.5.5"
+  }
+}
